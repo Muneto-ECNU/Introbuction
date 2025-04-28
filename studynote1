@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Notes | Muneto-ECNU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #007acc;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        a {
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            background-color: #eee;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Study Notes</h1>
+    <p>Here are my study notes as I learn and explore different fields.</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>My Notes</h2>
+        <ul>
+            <li><a href="notes/topology-optimization.html" target="_blank">Topology Optimization - Basics</a></li>
+            <li><a href="notes/numerical-pde.html" target="_blank">Numerical Methods for PDEs</a></li>
+            <li><a href="notes/phase-field.html" target="_blank">Phase Field Modeling Overview</a></li>
+            <li><a href="notes/machine-learning.html" target="_blank">Introduction to Machine Learning</a></li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2025 Muneto-ECNU
+</footer>
+
+</body>
+</html>
