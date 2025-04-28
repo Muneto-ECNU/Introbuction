@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Muneto-ECNU's Portfolio</title>
+    <title>Muneto-ECNU | Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* 基础样式 */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -16,34 +15,34 @@
         header {
             background-color: #007acc;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 40px 20px;
         }
         main {
             padding: 20px;
+            max-width: 1000px;
+            margin: auto;
         }
         section {
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
-        img.profile-pic {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin-top: 20px;
+        h2 {
+            color: #007acc;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
         }
-        .projects, .skills {
+        .card-container {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
+            margin-top: 20px;
         }
         .card {
             background: white;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            padding: 20px;
             flex: 1 1 300px;
-            text-align: center;
+            padding: 20px;
         }
         a.button {
             display: inline-block;
@@ -51,69 +50,83 @@
             padding: 10px 20px;
             background-color: #007acc;
             color: white;
-            border-radius: 5px;
             text-decoration: none;
+            border-radius: 5px;
         }
         footer {
-            background-color: #eee;
             text-align: center;
-            padding: 10px;
+            background-color: #eee;
+            padding: 20px;
             font-size: 14px;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Muneto-ECNU</h1>
-    <p>Welcome to my personal website</p>
-    <img src="your-photo.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Hello, I'm Muneto-ECNU</h1>
+    <p>A beginner graduate student exploring the world of research and ideas.</p>
 </header>
 
 <main>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm passionate about technology, science, and creating projects that make a difference.</p>
+    <section id="background">
+        <h2>Background</h2>
+        <p>I am currently a graduate student. My academic background includes mathematics, physics, and computational modeling. I am at the beginning of my research journey, and I am eager to learn and contribute.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
+    <section id="research">
+        <h2>Research Areas</h2>
+        <div class="card-container">
             <div class="card">
-                <h3>Project 1</h3>
-                <p>A short description of your project.</p>
-                <a href="https://github.com/your-repo" class="button" target="_blank">View on GitHub</a>
+                <h3>Computational Mathematics</h3>
+                <p>Numerical methods, PDEs, and optimization techniques.</p>
             </div>
             <div class="card">
-                <h3>Project 2</h3>
-                <p>Another project description here.</p>
-                <a href="https://github.com/your-repo2" class="button" target="_blank">View on GitHub</a>
+                <h3>Physical Modeling</h3>
+                <p>Fluid dynamics, phase-field models, and material simulation.</p>
+            </div>
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <p>Applying machine learning to scientific computing problems.</p>
             </div>
         </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
-            <div class="card">Python</div>
-        </div>
+    <section id="ideas">
+        <h2>My Ideas</h2>
+        <p>This section is dedicated to capturing and updating my research ideas, thoughts, and small explorations. I will periodically update it as I grow.</p>
+    </section>
+
+    <section id="notes">
+        <h2>Study Notes</h2>
+        <ul>
+            <li><a href="link-to-your-note1.html" target="_blank">Note 1: Introduction to Topology Optimization</a></li>
+            <li><a href="link-to-your-note2.html" target="_blank">Note 2: Basics of Numerical PDEs</a></li>
+            <li><a href="link-to-your-note3.html" target="_blank">Note 3: Fundamentals of Phase Field Modeling</a></li>
+        </ul>
+    </section>
+
+    <section id="columns">
+        <h2>Interesting Columns</h2>
+        <ul>
+            <li><a href="link-to-column1.html" target="_blank">Column 1: Thoughts on Scientific Exploration</a></li>
+            <li><a href="link-to-column2.html" target="_blank">Column 2: Balancing Research and Life</a></li>
+        </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
+        <h2>Contact & Resume</h2>
         <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
         <p>GitHub: <a href="https://github.com/Muneto-ECNU" target="_blank">Muneto-ECNU</a></p>
-        <a href="your-resume.pdf" class="button" download>Download Resume</a>
+        <a href="your-resume.pdf" class="button" download>Download My Resume</a>
     </section>
 
 </main>
 
 <footer>
-    &copy; 2025 Muneto-ECNU
+    &copy; 2025 Muneto-ECNU | All rights reserved.
 </footer>
 
 </body>
